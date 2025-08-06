@@ -1,0 +1,13 @@
+name: Print Hi
+
+on:
+  pull_request:
+    branchs:
+      - main
+jobs:
+  print_hi: 
+    runs-on: ubuntu-latest
+    steps:
+      - uses: action/checkout@v2
+      - run: echo "Hi"
+      
