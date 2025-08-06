@@ -2,8 +2,8 @@ name: Print Hi
 
 on:
   pull_request:
-    branchs:
-      - main
+    branches:
+    - main
 jobs:
   print_hi: 
     runs-on: ubuntu-latest
